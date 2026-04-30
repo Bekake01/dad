@@ -30,7 +30,7 @@ services:
       REDIS_URL: redis://redis:6379/0
       IMAGE_SERVICE_ADDR: image_service:50051
       IMAGES_DIR: /images
-      PUBLIC_BASE_URL: http://152.42.170.144
+      PUBLIC_BASE_URL: http://157.230.2.240
     volumes:
       - images_data:/images
     depends_on:
